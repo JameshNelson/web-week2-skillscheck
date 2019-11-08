@@ -1,0 +1,102 @@
+.header {
+    background-color: gray; 
+    width: 100%; 
+    height: 5vh; 
+    display: flex; 
+    align-items: center; 
+}
+
+.company{
+    font-size: 200%; 
+    margin-left: 30px; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.navBar{
+    display: flex; 
+    position: absolute;
+    right: 10px; 
+    word-spacing: 10px; 
+    margin-right: 20px; 
+    
+}
+
+
+.blackAndYellow{
+    background-color: black; 
+    width: 100%; 
+    height: 30vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 400%; 
+    color: yellow; 
+}
+
+.threeSquare{
+    background-color: white;
+    width: 100%; 
+    height: 20vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.tealSquare{
+    background-color: teal; 
+    height: 85%;
+    width: 10%;
+    border-radius: 25px; 
+}
+
+.twoSquare{
+    background-color: white; 
+    width: 100%; 
+    height: 20vh; 
+    display: flex; 
+    justify-content: space-around;
+
+}
+
+.orangeSquare{
+    background-color: orange; 
+    height: 85%; 
+    width: 30%
+}
+
+.picAndWords{
+ 
+    width: 100%; 
+    height: 15vh; 
+    display: flex; 
+    justify-content: space-around;
+}
+
+.words {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 30%; 
+    word-wrap: break-word;
+}
+
+.pic{
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 30%; 
+    background-image: url('https://www.lifewire.com/thmb/JTJHBp94YuFWqYC2tXt4S4NhPMo=/1100x750/filters:no_upscale():max_bytes(150000):strip_icc()/YoureFat-5b1175138e1b6e0036e631f6.jpg')
+
+}
+
+.footer{
+    background-color: darkslategray; 
+    width: 100%; 
+    height: 10vh; 
+}
+
